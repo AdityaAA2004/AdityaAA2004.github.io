@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+    font-family: 'Montserrat';
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+h1{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 700;
+    color: #ef8206;
+}
+body{
+    background-color: #A8CEF4;
+}
+.pad-div{
+    background-color: chartreuse;
+    height: 500px;
+    width: 260px;
+    margin-left: 25%;
+}
+.logo-enlarged{
+    margin-left: 20%;
+}
+.last-button{
+    margin-left: 20%;
+}
+
+
+@media screen and (min-width:1100px) {
+    
+    body{
+        background-image: url('coding-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h5{
+        background-color: aquamarine;
+    }
+    .pad-div{
+        display: inline-block;
+        margin-left:10%;
+    }
+    .last-button{
+        display: block;
+        float: right;
+        margin-left: 2%;
+    }
+    #but{
+        margin-left: 13%;
+    }
+    .logo-enlarged{
+        display: inline-block;
+        margin-left: 8%;
+        height: 300px;
+        width: 300px;
+    }
+}

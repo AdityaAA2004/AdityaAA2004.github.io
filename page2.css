@@ -1,0 +1,43 @@
+*{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    color: #f7ff02;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    color: #24ff02;
+}
+#table {
+    align-self: center;
+    display: table;
+    padding: 50px;
+}
+.tr {
+    display: table-row;
+    padding: 50px;
+}
+
+
+.td {
+    display: block;
+    margin-left: 5%;
+    width: 60px;
+}
+@media screen and (min-width:1000px) {
+    .td {
+        display: table-cell;
+        padding: 50px;
+        width: 6000px;
+        margin-left: 500px;
+    }
+    
+}
