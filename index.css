@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 *{
+    
     font-family: 'Montserrat';
     padding-left: 15px;
     padding-top: 15px;
@@ -8,6 +9,9 @@
     padding-bottom: 15px;
 }
 h1{
+    background-color: chartreuse;
+    background-size: 10vw;
+    background-size: cover;
     font-family: 'Montserrat';
     text-align: center;
     font-weight: 700;
@@ -20,19 +24,28 @@ body{
     background-color: chartreuse;
     height: 500px;
     width: 260px;
-    margin-left: 25%;
+    margin-left: 35%;
 }
 .logo-enlarged{
+    margin-left: 10%;
+}
+.grade-11{
+    display:inline-block;
+    
+}
+.current-me{
+    display: inline-block;
     margin-left: 20%;
 }
-.last-button{
-    position:fixed;
-    bottom:12%;
-    right:10%;
+
+#butto{
+    position: fixed;
+    bottom:5%;
+    right: 2%;
 }
 
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1300px) {
     
     body{
         background-image: url('coding-background.jpg');
@@ -61,4 +74,11 @@ body{
         height: 300px;
         width: 300px;
     }
+    .last-button{
+        position:fixed;
+        bottom:12%;
+        right:15%;
+    }
+    
+    
 }
