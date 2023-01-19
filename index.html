@@ -28,6 +28,7 @@
     }
     function uncheck_resume(){
         document.getElementById('flexCheckedDefault').checked = false;
+        document.getElementById('but').disabled = true;
     }
     window.onbeforeunload = uncheck_resume;
 </script>
