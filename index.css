@@ -26,7 +26,9 @@ body{
     margin-left: 20%;
 }
 .last-button{
-    margin-left: 20%;
+    position:fixed;
+    bottom:12%;
+    right:10%;
 }
 
 
