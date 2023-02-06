@@ -40,7 +40,7 @@ body{
 
 #butto{
     position: fixed;
-    bottom:5%;
+    bottom:2%;
     right: 2%;
 }
 
@@ -75,9 +75,9 @@ body{
         width: 300px;
     }
     .last-button{
-        position:fixed;
-        bottom:12%;
-        right:15%;
+        position:relative;
+        bottom:2%;
+        right:5%;
     }
     
     
