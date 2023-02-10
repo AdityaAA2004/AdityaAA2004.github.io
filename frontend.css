@@ -1,3 +1,15 @@
+
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    color: #f202ff;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    color: #24ff02;
+}
 *{
     font-family: 'Montserrat';
     font-size: 16px;
@@ -10,23 +22,14 @@
 body{
     background-color: rgb(191, 224, 227);
 }
-h1{
-    text-align: center;
-    font-weight: 700;
-    color: #f202ff;
-}
-h2{
-    text-align: center;
-    font-weight: 500;
-    color: #24ff02;
-}
 
 .image-gallery{
     display: block;
 }
-.exp-info{
-display: block;
-}
+.info{
+    display: block;
+    }
+
 .carousel-item img{
   width: 700px;
   height: 600px;
@@ -39,7 +42,7 @@ display: block;
         height: 30px;
         width: 50%;       
     }
-    .exp-info{
+    .info{
     display: block;
     width: 25%;
     margin-right: 5%; 
