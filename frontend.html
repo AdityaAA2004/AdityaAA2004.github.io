@@ -12,12 +12,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     
     <link rel="stylesheet" href="frontend.css">
     <link rel="stylesheet" href="common.css">
     <title>Front-End Experience</title>
 </head>
 <body>
+  <nav>
+    <button class="btn btn-primary btn-lg bg-dark" onclick="window.open('https://github.com/AdityaAA2004/AdityaAA2004.github.io');"> <i class="bi bi-github"></i> My Github</button>
+    <button class="btn btn-primary btn-lg bg-info" id="home" onclick="window.location.href='index.html';"> <i class="bi bi-house"></i> Home</button>
+    <button class="btn btn-primary btn-lg bg-info" id="home" onclick="window.location.href='birthday.html';"> <span class="material-symbols-outlined">celebration</span> When's your b'day?</button>
+    <button class="btn btn-primary bg-success" onclick="toggle_background()">Toggle Background</button>
+  </nav>
 
   <h1>MY FRONT-END EXPERIENCE</h1>
   <div class="image-gallery">
@@ -52,14 +59,10 @@
   <div class="info">
       <p>
         My experience with front-end is very limited. This is my first website I have made with basic html, css and js. I have used the bootstrap framework for the first time. Although I had taken courses before the WD4E specialization at UMich. I was not practicing conistently. However, I am excited to continue in this journey.   
-        <br><br><br>
-        <button class="btn btn-primary btn-lg bg-dark" onclick="window.open('https://github.com/AdityaAA2004/AdityaAA2004.github.io');"> <i class="bi bi-github"></i> My Github</button>
-        <br><br><br><br>
-        <button class="btn btn-primary btn-lg bg-info" id="home" onclick="window.location.href='index.html';"> <i class="bi bi-house"></i> Home</button>
-         <br><br><br><br>
-        <button class="btn btn-primary btn-lg bg-info" id="home" onclick="window.location.href='game.html';"> <i class="bi bi-balloon"></i> When's your b'day?</button>
+ 
       </p>
   </div>
+ 
 <script src="common_script.js"></script>
 </body>
 </html>
