@@ -15,7 +15,7 @@ def add(request):
     else:
         form = InputForm()
 
-return render(request, 'addition/home.html', context)
+return render(request, 'home.html', context)
 
 
 {{ output }}

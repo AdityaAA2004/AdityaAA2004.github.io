@@ -1,0 +1,5 @@
+total 12
+-rw-r--r--. 1 anandad1 anandad1 53 Feb 16 10:00 example2.txt
+-rw-r--r--. 1 anandad1 anandad1 81 Feb 16 09:56 example.txt
+-rw-r--r--. 1 anandad1 anandad1 87 Feb 16 10:04 input.txt
+-rw-r--r--. 1 anandad1 anandad1  0 Feb 16 10:06 output.txt

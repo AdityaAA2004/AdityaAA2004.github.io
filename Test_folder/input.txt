@@ -1,0 +1,2 @@
+This txt file was made from the terminal itself. It doesnt use the vim editor at all.
+

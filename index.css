@@ -22,9 +22,9 @@ body{
 }
 .pad-div{
     background-color: chartreuse;
-    height: 500px;
+    height: 450px;
     width: 260px;
-    margin-left: 35%;
+    margin-left: 25%;
 }
 .logo-enlarged{
     margin-left: 10%;
@@ -38,10 +38,10 @@ body{
     margin-left: 20%;
 }
 
-#butto{
-    position: fixed;
-    bottom:2%;
-    right: 2%;
+.last-button{
+    position: absolute;
+    margin-top:10%;
+    right: 1%;
 }
 
 
@@ -58,7 +58,9 @@ body{
     }
     .pad-div{
         display: inline-block;
-        margin-left:10%;
+        height: 500px;
+        margin-top: 10%;
+        margin-left:20%;
     }
     .last-button{
         display: block;
@@ -75,8 +77,8 @@ body{
         width: 300px;
     }
     .last-button{
-        position:relative;
-        bottom:2%;
+        position:absolute;
+        margin-top:3%;
         right:5%;
     }
     
