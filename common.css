@@ -1,4 +1,9 @@
-
+@media screen and (max-width:870px) {
+    .image-gallery{
+        display: none;
+    }
+    
+}
 
 @media (prefers-color-scheme : dark){
     body{
