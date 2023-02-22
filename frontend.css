@@ -10,12 +10,7 @@ h2{
     font-weight: 500;
     color: #24ff02;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 
 *{
     font-family: 'Montserrat';

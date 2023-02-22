@@ -17,12 +17,10 @@
 </head>
 <body>
   
-  <nav class="nav nav-pills flex-column flex-sm-row bg-transparent">
-    
-      <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="https://jssisdubai.com/admission?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGGHScHt-txOIc562xTURJxQ8N-EETaAmKFXevgoiv5kqKm5036XoJoaAqmBEALw_wcB">Official Website</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="gallery.html">Photo Gallery</a>
-      <button class="btn btn-primary bg-success" onclick="toggle_background()">Toggle Background</button>   
+  <nav>
+    <div><button class="btn btn-primary btn-lg bg-info" id="home" onclick="window.location.href='index.html';"> <i class="bi bi-house"></i> Home</button></div>
+    <div><button class="btn btn-primary btn-lg official-color" onclick="window.open('https://jssisdubai.com/admission?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGGHScHt-txOIc562xTURJxQ8N-EETaAmKFXevgoiv5kqKm5036XoJoaAqmBEALw_wcB');">Official Website</button></div>  
+    <div><button class="btn btn-primary bg-success" onclick="toggle_background()">Toggle Background</button></div>  
   </nav>
   <h1>MY SCHOOL</h1>
   <div class="image-gallery">

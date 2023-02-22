@@ -9,12 +9,7 @@
 body{
   background-color: rgb(191, 224, 227);
 }
-nav{
-  display: flex;
-  justify-content: space-around;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
 h1{
   text-align: center;
   font-weight: 700;
