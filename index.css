@@ -41,13 +41,15 @@ body{
 }
 
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:900px) {
     
     body{
-        background-image: url('coding-background.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+        background: url(coding-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
     h5{
         background-color: aquamarine;
