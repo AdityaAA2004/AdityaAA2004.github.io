@@ -27,7 +27,13 @@ body{
 }
 .pad-div{
     background-color: chartreuse;
+    height: 380px;
     width: 260px;
+}
+
+.pad-div button{
+    position: relative;
+    top: 5%;
 }
 
 .last-button button{
@@ -48,7 +54,7 @@ body{
     }
     .pad-div{
         display: inline-block;
-        height: 370px;
+        height: 410px;
         margin-top: 10%;
         margin-left:20%;
     }
