@@ -6,9 +6,13 @@
     padding-right: 15px;
     padding-bottom: 15px;
 }
-nav button{
-   margin-left: 18px; 
+nav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 body{
     background-color: rgb(191, 224, 227);
 }
