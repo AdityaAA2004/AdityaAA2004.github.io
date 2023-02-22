@@ -17,41 +17,19 @@
     <title>Portfolio Website</title>
 </head>
 <body>
-<script>
-    function on_checked(){
-        if (document.getElementById('flexCheckedDefault').checked){
-            document.getElementById('but').disabled = false;
-        }
-        else{   
-            document.getElementById('but').disabled = true;
-        }
-    }
-    function uncheck_resume(){
-        document.getElementById('flexCheckedDefault').checked = false;
-        document.getElementById('but').disabled = true;
-    }
-    window.onbeforeunload = uncheck_resume;
-</script>
 
 <h1>ADITYA ARCHUNAN ANAND</h1>
 <div class="logo-enlarged">
-    <img src="logo-removebg-preview.png" alt="Myself">
-    <h5>This is Me in Grade 11</h5>
+
     <img src="current-photo.png" alt="Current Photo" height="200" width="200">
-    <h5>This is Me today</h5>
+    <h5>Myself</h5>
 </div>
 
 <div class="card pad-div">
     Hi guys, i am excited to make this website. <br><br>
     I thank each one of you for spending valuable time scrolling through my page. <br><br>
     I feel proud of hosting this page to the public on Github. Appreciate if you can go through my resume`<br><br>
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="flexCheckedDefault" value=""  onchange="on_checked()">
-        <label class="form-check-label" for="flexCheckedDefault">
-            Want to have a look at my resume`?
-        </label>
-    </div>
-    <button disabled="disabled" class="btn btn-primary btn-lg" id="but" onclick="window.location.href='Resume-2022-Intel.pdf';">My Resume`</button>
+    <button class="btn btn-primary btn-lg" id="but" onclick="window.location.href='Resume-2022-Intel.pdf';">My Resume`</button>
         
 </div>
 <div class="last-button">

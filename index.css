@@ -20,27 +20,18 @@ h1{
 body{
     background-color: #A8CEF4;
 }
+
+.logo-enlarged{
+    position: relative;
+
+}
 .pad-div{
     background-color: chartreuse;
-    height: 450px;
+    height:450px;
     width: 260px;
-    margin-left: 25%;
-}
-.logo-enlarged{
-    margin-left: 10%;
-}
-.grade-11{
-    display:inline-block;
-    
-}
-.current-me{
-    display: inline-block;
-    margin-left: 20%;
 }
 
-.last-button{
-    position: absolute;
-    margin-top:10%;
+.last-button button{
     right: 1%;
 }
 
@@ -58,7 +49,7 @@ body{
     }
     .pad-div{
         display: inline-block;
-        height: 500px;
+        height: 400px;
         margin-top: 10%;
         margin-left:20%;
     }
