@@ -27,7 +27,6 @@ body{
 }
 .pad-div{
     background-color: chartreuse;
-    height:450px;
     width: 260px;
 }
 
@@ -49,7 +48,7 @@ body{
     }
     .pad-div{
         display: inline-block;
-        height: 400px;
+        height: 370px;
         margin-top: 10%;
         margin-left:20%;
     }
