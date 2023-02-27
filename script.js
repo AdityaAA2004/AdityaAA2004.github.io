@@ -15,9 +15,19 @@ function countdown() {
     const birthday_date = new Date(birthday);
     const currentDate = new Date();
     console.log(birthday);
+
+    console.log('Birthday before today: ',  birthday_date < currentDate);
     if (birthday === "") {
         document.getElementById('error-message').style.display = "block";
         console.log("BLANK BIRTHDAY");
+        daysEL.innerHTML = "0";
+        hoursEL.innerHTML = "0";
+        minsEL.innerHTML = "0";
+        secondsEL.innerHTML = "0";
+    }
+    else if (birthday_date <= currentDate){
+        h1EL = document.getElementById('birthday-wish');
+        h1EL.innerHTML = "Happy Belated Birthay";
         daysEL.innerHTML = "0";
         hoursEL.innerHTML = "0";
         minsEL.innerHTML = "0";
