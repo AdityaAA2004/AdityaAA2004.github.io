@@ -34,8 +34,7 @@ function countdown() {
         secondsEL.innerHTML = "0";
     }
     else {
-        h1EL = document.getElementById('birthday-wish');
-        h1EL.innerHTML = "Birthday Countdown";
+ 
         const totalSeconds = (birthday_date - currentDate) / 1000;
         const days = Math.floor(totalSeconds / 3600 / 24);
         const hours = Math.floor(totalSeconds / 3600) % 24;
